@@ -1,0 +1,105 @@
+/* images and icons */
+.masthead .masthead-avatar {
+    width: 25rem;
+  }
+
+
+.icon_star {
+    height: 50px;
+    margin: 10px 30px;
+}
+.icon_dotted_line4 {
+    height:10px;
+}
+
+
+/* skills and tools */
+.box_icon {
+    height: 170px;
+    /* display: inline-block; */
+}
+.box_icon p {
+    font-weight: 700;
+}
+.skill_icon {
+    margin: 0px 20px ;
+    /* filter: brightness(100); */
+}
+.skill_icon_node {
+    /* filter: invert(); */
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+    object-fit:contain;
+    margin: 0px 20px ;
+}
+.skill_icon_express {
+    filter: invert();
+    height: 70px;
+    margin: 0px 20px ;
+}
+.skill_icon_mongoDB {
+    /* filter: invert(); */
+    height: 70px;
+    margin: 0px 20px ;
+    filter: invert(61%) sepia(47%) saturate(574%) hue-rotate(71deg) brightness(86%) contrast(85%);
+}
+.skill_icon_hexels {
+    /* filter: invert(); */
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+    object-fit:contain;
+    margin: 0px 20px ;
+}
+.skill_icon_adobePS {
+    /* filter: invert(); */
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+    object-fit:contain;
+    margin: 0px 20px ;
+    filter: invert(60%) sepia(95%) saturate(3370%) hue-rotate(183deg) brightness(91%) contrast(83%);
+}
+.skill_icon_adobeAI {
+    /* filter: invert(); */
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+    object-fit:contain;
+    margin: 0px 20px ;
+    filter: invert(67%) sepia(80%) saturate(2487%) hue-rotate(325deg) brightness(101%) contrast(101%);
+}
+
+
+/* portfolio */
+.portfolio-item img {
+    width: 400px;
+    height: 320px;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: 50% 0px;
+}
+
+
+/* Contact form */
+input.invalid {
+    border: 1PX solid red;
+}
+
+textarea.invalid {
+    border: 1PX solid red;
+}
+
+.error-hint {
+    color: red;
+}
+.hidden {
+    display: none;
+}
+
+.thank-you {
+    padding: 40px;
+    font-size: 25px;
+    text-align: center;
+}
