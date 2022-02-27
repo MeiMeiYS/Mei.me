@@ -38,11 +38,11 @@
     height: 70px;
     margin: 0px 20px ;
 }
-.skill_icon_mongoDB {
+.skill_icon_python {
     /* filter: invert(); */
     height: 70px;
     margin: 0px 20px ;
-    filter: invert(61%) sepia(47%) saturate(574%) hue-rotate(71deg) brightness(86%) contrast(85%);
+    /* filter: invert(61%) sepia(47%) saturate(574%) hue-rotate(71deg) brightness(86%) contrast(85%); */
 }
 .skill_icon_hexels {
     /* filter: invert(); */
